@@ -1385,6 +1385,12 @@
 		(uuid "3a47261e-71cc-4ebf-9fe5-0c95b9b14c86")
 	)
 	(junction
+		(at 121.92 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b776147-6294-4391-9d61-5d497c021fa8")
+	)
+	(junction
 		(at 40.64 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1793,12 +1799,6 @@
 		(uuid "e658c757-0e8f-47cb-b81b-264e312c3bad")
 	)
 	(junction
-		(at 121.92 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6dfd515-a9e0-404c-bd1b-694932a55b07")
-	)
-	(junction
 		(at 63.5 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2084,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 62.23) (xy 154.94 62.23)
+			(xy 92.71 62.23) (xy 121.92 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2764,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 59.69) (xy 157.48 59.69)
+			(xy 109.22 59.69) (xy 157.48 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3171,6 +3171,16 @@
 			(type default)
 		)
 		(uuid "5e8a25e6-27df-4ac9-987c-bad4887dfcb0")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 154.94 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebe6c4c-ea47-441d-93bb-f6609c3ce048")
 	)
 	(wire
 		(pts
@@ -3774,6 +3784,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 62.23) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef2f0c2-0fcf-4ea9-a872-00157c8ee659")
+	)
+	(wire
+		(pts
 			(xy 80.01 72.39) (xy 82.55 72.39)
 		)
 		(stroke
@@ -4051,16 +4071,6 @@
 			(type default)
 		)
 		(uuid "a656fb82-b5a5-4188-8ec0-263c5404ab99")
-	)
-	(wire
-		(pts
-			(xy 121.92 59.69) (xy 121.92 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a697b2b2-3b3b-4879-92a2-6f1a331b2738")
 	)
 	(wire
 		(pts
@@ -5164,16 +5174,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 59.69) (xy 121.92 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa5c4d1d-99b3-448b-8709-31da60d8ecac")
-	)
-	(wire
-		(pts
 			(xy 116.84 68.58) (xy 116.84 72.39)
 		)
 		(stroke
@@ -5354,7 +5354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal"
 			(at 74.93 111.76 0)
 			(effects
 				(font
@@ -5502,7 +5502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 244.602 78.74 90)
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 133.35 124.46 0)
 			(effects
 				(font
@@ -5645,7 +5645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 236.982 78.74 90)
 			(effects
 				(font
@@ -5715,7 +5715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 229.362 78.74 90)
 			(effects
 				(font
@@ -5785,7 +5785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 183.642 78.74 90)
 			(effects
 				(font
@@ -5855,7 +5855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 76.962 78.74 90)
 			(effects
 				(font
@@ -5923,7 +5923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal"
 			(at 44.45 111.76 0)
 			(effects
 				(font
@@ -6005,7 +6005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 205.74 111.76 0)
 			(effects
 				(font
@@ -6073,7 +6073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 139.7 40.64 0)
 			(effects
 				(font
@@ -6185,7 +6185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 198.882 78.74 90)
 			(effects
 				(font
@@ -6253,7 +6253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal"
 			(at 180.34 111.76 0)
 			(effects
 				(font
@@ -6335,7 +6335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 168.402 78.74 90)
 			(effects
 				(font
@@ -6405,7 +6405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 137.922 78.74 90)
 			(effects
 				(font
@@ -6475,7 +6475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 107.442 78.74 90)
 			(effects
 				(font
@@ -6545,7 +6545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 54.102 78.74 90)
 			(effects
 				(font
@@ -6615,7 +6615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 84.582 78.74 90)
 			(effects
 				(font
@@ -6685,7 +6685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 153.162 78.74 90)
 			(effects
 				(font
@@ -6755,7 +6755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 176.022 78.74 90)
 			(effects
 				(font
@@ -6825,7 +6825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 99.822 78.74 90)
 			(effects
 				(font
@@ -6895,7 +6895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 130.302 78.74 90)
 			(effects
 				(font
@@ -6965,7 +6965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 38.862 78.74 90)
 			(effects
 				(font
@@ -7035,7 +7035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 92.202 78.74 90)
 			(effects
 				(font
@@ -7105,7 +7105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 267.462 78.74 90)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal"
 			(at 59.69 111.76 0)
 			(effects
 				(font
@@ -7253,7 +7253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 198.12 40.64 0)
 			(effects
 				(font
@@ -7365,7 +7365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 259.842 78.74 90)
 			(effects
 				(font
@@ -7435,7 +7435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 214.122 78.74 90)
 			(effects
 				(font
@@ -7505,7 +7505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 69.342 78.74 90)
 			(effects
 				(font
@@ -7573,7 +7573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 254 40.64 0)
 			(effects
 				(font
@@ -7685,7 +7685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 61.722 78.74 90)
 			(effects
 				(font
@@ -7755,7 +7755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 145.542 78.74 90)
 			(effects
 				(font
@@ -7825,7 +7825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 160.782 78.74 90)
 			(effects
 				(font
@@ -7895,7 +7895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 115.062 78.74 90)
 			(effects
 				(font
@@ -7965,7 +7965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 206.502 78.74 90)
 			(effects
 				(font
@@ -8035,7 +8035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 221.742 78.74 90)
 			(effects
 				(font
@@ -8105,7 +8105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 122.682 78.74 90)
 			(effects
 				(font
@@ -8175,7 +8175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 25.4 46.99 0)
 			(effects
 				(font
@@ -8245,7 +8245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 275.082 78.74 90)
 			(effects
 				(font
@@ -8315,7 +8315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 191.262 78.74 90)
 			(effects
 				(font
@@ -8383,7 +8383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -8493,7 +8493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal"
 			(at 195.58 111.76 0)
 			(effects
 				(font
@@ -8575,7 +8575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 252.222 78.74 90)
 			(effects
 				(font
@@ -8645,7 +8645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 46.482 78.74 90)
 			(effects
 				(font
