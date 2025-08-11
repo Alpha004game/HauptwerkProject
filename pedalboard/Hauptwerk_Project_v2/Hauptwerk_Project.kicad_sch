@@ -6576,7 +6576,7 @@
 		(dnp no)
 		(uuid "31563634-b384-49c6-b902-ecb68105a079")
 		(property "Reference" "J7"
-			(at 203.2 110.4899 90)
+			(at 208.534 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6585,7 @@
 			)
 		)
 		(property "Value" "31-32"
-			(at 203.2 113.0299 90)
+			(at 210.566 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)

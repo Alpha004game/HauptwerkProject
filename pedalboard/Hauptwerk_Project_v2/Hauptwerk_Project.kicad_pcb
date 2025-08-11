@@ -8544,7 +8544,7 @@
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J1"
 			(at 2.54 -6.32 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "755795b0-dc9a-43b5-bd2d-925eb2bf81ab")
 			(effects
 				(font
