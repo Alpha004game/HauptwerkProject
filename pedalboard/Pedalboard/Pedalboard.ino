@@ -42,12 +42,14 @@ void setup() {
 
 void loop() {
   digitalWrite(LATCHPIN, LOW);   // Blocca input
-  delayMicroseconds(5);
+  delayMicroseconds(10);
   digitalWrite(LATCHPIN, HIGH);  // Carica i dati
+  delayMicroseconds(10);
 
   // Leggo tutti i chip
   for (int chip = 0; chip < NUM_CHIPS; chip++) {
-    values[chip] = shiftIn(DATAPIN, CLOCKPIN, MSBFIRST);
+    //values[chip] = shiftIn(DATAPIN, CLOCKPIN, MSBFIRST);
+    values[chip]=readShiftRegister();
   }
 
   // Ora scorri ogni bit per determinare il singolo stato di ogni pedale
@@ -55,15 +57,18 @@ void loop() {
     int chipIndex = i / 8;
     int bitIndex = 7 - (i % 8);
 
+
     bool current = bitRead(values[chipIndex], bitIndex) == 0;
 
     if (current != lastState[i]) {
       lastState[i] = current;
 
+      int reversedIndex = (NUM_KEYS - 1) - i;
+
       if (current) {
-        noteOn(MIDI_CHANNEL, BASENOTE + i, 100);
+        noteOn(MIDI_CHANNEL, BASENOTE + reversedIndex, 100);
       } else {
-        noteOff(MIDI_CHANNEL, BASENOTE + i, 0);
+        noteOff(MIDI_CHANNEL, BASENOTE + reversedIndex, 0);
       }
 
       MidiUSB.flush();
@@ -79,4 +84,17 @@ void noteOn(byte channel, byte pitch, byte velocity) {
 void noteOff(byte channel, byte pitch, byte velocity) {
   midiEventPacket_t noteOffMsg = {0x08, 0x80 | channel, pitch, velocity};
   MidiUSB.sendMIDI(noteOffMsg);
+}
+
+byte readShiftRegister() {
+  byte data = 0;
+  for (int i = 0; i < 8; i++) {
+    data <<= 1;
+    data |= digitalRead(DATAPIN);
+    digitalWrite(CLOCKPIN, HIGH);
+    delayMicroseconds(1);
+    digitalWrite(CLOCKPIN, LOW);
+    delayMicroseconds(1);
+  }
+  return data;
 }
