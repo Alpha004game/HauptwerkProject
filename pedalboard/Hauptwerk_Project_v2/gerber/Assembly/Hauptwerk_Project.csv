@@ -1,0 +1,12 @@
+"Id";"Riferimento";"Impronta";"Quantità";"Valore";"Produttore";
+1;"J4";"TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal";1;"13-18";;;
+2;"R26,R14,R29,R30,R12,R8,R13,R10,R4,R18,R9,R27,R5,R3,R28,R21,R24,R11,R19,R17,R25,R16,R7,R32,R15,R2,R22,R23,R20,R6,R31,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";32;"10k";;;
+3;"J6";"TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal";1;"25-30";;;
+4;"J7";"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal";1;"31-32";;;
+5;"U4,U1,U3,U2";"DIP-16_W7.62mm";4;"74HC165";;;
+6;"J3";"TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal";1;"7-12";;;
+7;"J1";"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal";1;"Power 5V";;;
+8;"U5";"ProMicro-EnforcedTop";1;"ProMicro";;;
+9;"J2";"TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal";1;"1-6";;;
+10;"F1";"Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open";1;"Fuse";;;
+11;"J5";"TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal";1;"19-24";;;

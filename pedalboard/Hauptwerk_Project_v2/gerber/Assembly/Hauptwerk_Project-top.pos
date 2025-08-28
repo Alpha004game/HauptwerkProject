@@ -1,0 +1,51 @@
+### Footprint positions - created on 2025-08-12T15:43:59+0200 ###
+### Printed by KiCad version 9.0.3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                                                             PosX       PosY       Rot  Side
+F1        Fuse      Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open    52.3240   -64.0080    0.0000  top
+J1        Power_5V  TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal    37.2925   -76.1950  -90.0000  top
+J2        1-6       TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal    46.9900   -99.0600    0.0000  top
+J3        7-12      TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal    78.7400   -99.0600    0.0000  top
+J4        13-18     TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal   110.4900   -99.0600    0.0000  top
+J5        19-24     TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal   142.2400   -99.0600    0.0000  top
+J6        25-30     TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal   173.9900   -99.0600    0.0000  top
+J7        31-32     TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal   205.7350   -99.0600    0.0000  top
+R1        10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 46.9900   -91.4400   90.0000  top
+R2        10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 52.0700   -91.4400   90.0000  top
+R3        10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 57.1500   -91.4400   90.0000  top
+R4        10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 62.2300   -91.4400   90.0000  top
+R5        10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 67.3100   -91.4400   90.0000  top
+R6        10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 72.3900   -91.4400   90.0000  top
+R7        10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 78.7400   -91.4400   90.0000  top
+R8        10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 83.8200   -91.4400   90.0000  top
+R9        10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 88.9000   -91.4400   90.0000  top
+R10       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 93.9800   -91.4400   90.0000  top
+R11       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                 99.0600   -91.4400   90.0000  top
+R12       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                104.1400   -91.4400   90.0000  top
+R13       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                110.4900   -91.4400   90.0000  top
+R14       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                115.5700   -91.4400   90.0000  top
+R15       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                120.6500   -91.4400   90.0000  top
+R16       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                125.7300   -91.4400   90.0000  top
+R17       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                130.8100   -91.4400   90.0000  top
+R18       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                135.8900   -91.4400   90.0000  top
+R19       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                142.2400   -91.4400   90.0000  top
+R20       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                147.3200   -91.4400   90.0000  top
+R21       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                152.4000   -91.4400   90.0000  top
+R22       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                157.4800   -91.4400   90.0000  top
+R23       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                162.5600   -91.4400   90.0000  top
+R24       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                167.6400   -91.4400   90.0000  top
+R25       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                173.9900   -91.4400   90.0000  top
+R26       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                179.0700   -91.4400   90.0000  top
+R27       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                184.1500   -91.4400   90.0000  top
+R28       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                189.2300   -91.4400   90.0000  top
+R29       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                194.3100   -91.4400   90.0000  top
+R30       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                199.3900   -91.4400   90.0000  top
+R31       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                205.7400   -91.4400   90.0000  top
+R32       10k       R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal                210.8200   -91.4400   90.0000  top
+U1        74HC165   DIP-16_W7.62mm                                                   85.0900   -72.3900   90.0000  top
+U2        74HC165   DIP-16_W7.62mm                                                  118.1100   -72.3900   90.0000  top
+U3        74HC165   DIP-16_W7.62mm                                                  151.1300   -72.3900   90.0000  top
+U4        74HC165   DIP-16_W7.62mm                                                  184.1500   -72.3900   90.0000  top
+U5        ProMicro  ProMicro-EnforcedTop                                            237.4900   -77.4700  180.0000  top
+## End
