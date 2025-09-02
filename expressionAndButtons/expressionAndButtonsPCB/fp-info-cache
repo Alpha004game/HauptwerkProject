@@ -1,4 +1,4 @@
-26427612550604029
+26429366684946090
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105601,6 +105601,13 @@ Varistor VF
 0
 2
 2
+logo_lib
+logo_serigrafia
+
+
+0
+0
+0
 promicro
 ProMicro
 Pro Micro footprint
