@@ -1,5 +1,7 @@
 # HauptwerkProject
 
+**STATUS: on going**
+
 Progetto open source per la gestione di una pedaliera MIDI, staffe di espressione e bottoniera compatibili con [Hauptwerk](https://www.hauptwerk.com/), basato su Arduino Pro Micro (ATmega32U4). Il sistema invia messaggi MIDI tramite USB grazie alla libreria `MIDIUSB.h`.
 
 ## Contenuto del Progetto
